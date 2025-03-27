@@ -13,8 +13,10 @@ namespace carvedrock.bl.Conventions.LayoutConventions
             string productName = "Hello Summer T-Shirt";
 
             double productPrice, discount; // Declaration
-            productPrice = 5.99; discount = 0.3; // Assignment
-            productPrice = productPrice * discount; productPrice = Math.Round(productPrice, 2);
+            productPrice = 5.99; 
+            discount = 0.3; // Assignment
+            productPrice *=  discount; 
+            productPrice = Math.Round(productPrice, 2);
 
 
             Console.WriteLine($"Name:{productName}, Price:{productPrice}");
