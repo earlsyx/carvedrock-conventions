@@ -1,7 +1,7 @@
 ﻿
 namespace carvedrock.bl.Conventions.NamingConventions.Interfaces
 {
-    public interface Product
+    public interface IProduct
     {
         string GetDetails();
     }
